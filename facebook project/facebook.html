@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Facebook</title>
+    <link rel="icon" href="logo.webp" />
+    <meta name="description" content="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: #f0f2f5;">
+    <header class="position-fixed fixed-top">
+      <div
+        class="container-fluid h-100 d-flex justify-content-between align-items-center"
+      >
+        <div class="first ">
+          <div class="logo">
+            <img class="img-logo" src="logo.webp" alt="site logo" />
+          </div>
+          <div class="search rounded-5 border shadow-sm">
+            <i
+              class="fa-solid fa-magnifying-glass rounded-start-5 search-icon"
+            ></i>
+            <input
+              class="h-100 rounded-end-5 ps-2 search-input"
+              type="search"
+              placeholder="search facebook"
+            />
+          </div>
+        </div>
+        <div class="second">
+          <div class="second-child">
+            <div class="home action">
+              <a
+                href="#"
+                class="w-100 adjust"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Home!"
+                ><i class="fa-solid fa-house icons action1"></i
+              ></a>
+            </div>
+            <div class="home">
+              <a
+                href="#"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Video"
+                class="w-100 adjust"
+              >
+                <i class="fa-brands fa-youtube icons"></i>
+              </a>
+            </div>
+            <div class="home">
+              <a
+                href="#"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Groups"
+                class="w-100 adjust"
+              >
+                <i class="fa-solid fa-circle-user icons"></i
+              ></a>
+            </div>
+            <div class="home">
+              <a
+                href="#"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Gaming"
+                class="w-100 adjust"
+              >
+                <i class="fa-solid fa-gamepad icons"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="third">
+          <div class="rightbar">
+            <a
+              href="#"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Menu"
+              ><i class="fa-solid fa-diagram-successor right-icon"></i
+            ></a>
+            <a
+              href="#"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Messanger"
+              ><i class="fa-solid fa-comment-dots right-icon"
+                ><span
+                  style="
+                    font-size: 0.55rem;
+                    padding-left: 2px;
+                    padding-top: 5px;
+                  "
+                  class="position-absolute top-0 start-100 h-50 w-50 translate-middle badge rounded-circle bg-danger"
+                >
+                  33+
+                  <span class="visually-hidden">unread messages</span>
+                </span></i
+              ></a
+            >
+            <a
+              href="#"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Notification"
+              ><i class="fa-solid fa-bell right-icon"
+                ><span
+                  style="
+                    font-size: 0.55rem;
+                    padding-left: 2px;
+                    padding-top: 5px;
+                  "
+                  class="position-absolute top-0 h-50 w-50 start-100 translate-middle badge rounded-circle bg-danger"
+                >
+                  12+
+                  <span class="visually-hidden">unread messages</span>
+                </span></i
+              ></a
+            >
+            <a
+              href="#"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Account"
+              ><i class="fa-solid fa-user right-icon"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="sect">
+      <div class="container-fluid h-100 position-relative backcolor">
+        <div class="row h-100 position-relative">
+          <div
+            class="col-md-3 first1 overflow-y-scroll py-2 px-0 owner-left"
+          >
+            <div class="set1">
+              <li class="list-data">
+                <img
+                  class="rounded-circle set-image"
+                  src="img2.png"
+                  alt="image1"
+                />
+                Farooq Tariq
+              </li>
+              <li class="list-data">
+                <img
+                  class="rounded-circle set-image"
+                  src="images.png"
+                  alt="image2"
+                />
+                Saved
+              </li>
+              <li class="list-data">
+                <img
+                  class="rounded-circle set-image"
+                  src="img1.png"
+                  alt="image3"
+                />
+                Friends
+              </li>
+              <li class="list-data">
+                <img
+                  class="rounded-circle set-image"
+                  src="img1.png"
+                  alt="image4"
+                />
+                Memorized
+              </li>
+              <li class="list-data">
+                <img
+                  style="width: 37px"
+                  class="rounded-circle set-image"
+                  src="img4.png"
+                  alt="image5"
+                />
+                Groups
+              </li>
+              <li class="list-data">
+                <img
+                  class="rounded-circle set-image"
+                  src="img5.png"
+                  alt="image5"
+                />
+                Feeds
+              </li>
+              <li class="list-data">
+                <img
+                  class="rounded-circle set-image"
+                  src="img2.png"
+                  alt="image1"
+                />
+                Farooq Tariq
+              </li>
+              <li class="list-data">
+                <img
+                  class="rounded-circle set-image"
+                  src="images.png"
+                  alt="image2"
+                />
+                Saved
+              </li>
+              <li class="list-data">
+                <img
+                  class="rounded-circle set-image"
+                  src="img1.png"
+                  alt="image3"
+                />
+                Friends
+              </li>
+              <li class="list-data">
+                <img
+                  class="rounded-circle set-image"
+                  src="img1.png"
+                  alt="image4"
+                />
+                Memorized
+              </li>
+              <li class="list-data">
+                <img
+                  style="width: 37px"
+                  class="rounded-circle set-image"
+                  src="img4.png"
+                  alt="image5"
+                />
+                Groups
+              </li>
+              <li class="list-data">
+                <img
+                  class="rounded-circle set-image"
+                  src="img5.png"
+                  alt="image5"
+                />
+                Feeds
+              </li>
+              <li class="list-data">
+                <img
+                  class="rounded-circle set-image"
+                  src="img2.png"
+                  alt="image1"
+                />
+                Farooq Tariq
+              </li>
+              <li class="list-data">
+                <img
+                  class="rounded-circle set-image"
+                  src="images.png"
+                  alt="image2"
+                />
+                Saved
+              </li>
+              <li class="list-data">
+                <img
+                  class="rounded-circle set-image"
+                  src="img1.png"
+                  alt="image3"
+                />
+                Friends
+              </li>
+              <li class="list-data">
+                <img
+                  class="rounded-circle set-image"
+                  src="img1.png"
+                  alt="image4"
+                />
+                Memorized
+              </li>
+              <li class="list-data">
+                <img
+                  style="width: 37px"
+                  class="rounded-circle set-image"
+                  src="img4.png"
+                  alt="image5"
+                />
+                Groups
+              </li>
+              <li class="list-data">
+                <img
+                  class="rounded-circle set-image"
+                  src="img5.png"
+                  alt="image5"
+                />
+                Feeds
+              </li>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 first2 py-md-2">
+            <div class="setmid py-2">
+              <div class="firstpair rounded-2 border-1 shadow-sm ">
+                <div
+                  class="pair1-child1 rounded-top-2 d-flex align-items-center justify-content-evenly"
+                >
+                  <div class="stage-left text-center py-2">
+                    <i class="fa-solid fa-book-open fs-4 pe-1"></i>
+                    <a href="#" class="text-decoration-none fw-medium fs-5"
+                      >Stories</a
+                    >
+                  </div>
+                  <div class="stage-right text-center py-2">
+                    <i class="fa-solid fa-video fs-4 pe-1"></i>
+                    <a
+                      href="#"
+                      class="text-decoration-none fw-medium fs-5 text-dark"
+                      >Reels</a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="pair1-child2 rounded-bottom-2 d-flex align-items-center justify-content-evenly"
+                >
+                  <div
+                    class="one1 position-relative shadow border-1 border-dark-subtle overflow-hidden"
+                  >
+                    <div class="pic-set position-relative">
+                      <img
+                        src="farooq.jpg"
+                        class="image22 rounded-top-3"
+                        alt="about-picture"
+                      />
+                      <div class="gole-icon">+</div>
+                      <p
+                        class="text-center"
+                        style="
+                          letter-spacing: 0.6px;
+                          font-size: 0.82rem;
+                          padding-top: 17px;
+                        "
+                      >
+                        Create Story
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="two2 position-relative shadow border-1 border-dark-subtle overflow-hidden"
+                  >
+                    <div class="setpic">
+                      <img src="story1.jfif" class="image33" alt="story" />
+                    </div>
+                    <div class="golesetpic">
+                      <img src="abd.jpg" class="profilepics" alt="profile" />
+                    </div>
+                    <p class="text-white textsize">Abdullah Rajpoot</p>
+                  </div>
+                  <div
+                    class="three3 position-relative shadow border-1 border-dark-subtle overflow-hidden"
+                  >
+                    <div class="setpic">
+                      <img src="story2b.jfif" class="image33" alt="story" />
+                    </div>
+                    <div class="golesetpic">
+                      <img src="moaz.jpg" class="profilepics" alt="profile" />
+                    </div>
+                    <p class="text-white textsize">Moazzam Aslam</p>
+                  </div>
+                  <div
+                    class="four4 position-relative shadow border-1 border-dark-subtle overflow-hidden"
+                  >
+                    <div class="setpic">
+                      <img src="story3f.jfif" class="image33" alt="story" />
+                    </div>
+                    <div class="golesetpic">
+                      <img src="faisal.jpg" class="profilepics" alt="profile" />
+                    </div>
+                    <p class="text-white ps-3 textsize">Fasial Abbas</p>
+                  </div>
+                </div>
+              </div>
+              <div class="pair2 my-3 rounded-2 shadow-sm ">
+                  <div class="inner1 d-flex align-items-center ">
+                      <img src="farooq.jpg" class="b-pic" alt="prfile-picture">
+                      <a class="anchor" href="#">Whats on your mind, Farooq?</a>
+                  </div>
+                  <div class="inner2 d-flex align-items-center ">
+                      <div class="inner2-1 d-flex align-items-center justify-content-center  ">
+                        <i class="fa-solid fa-video text-danger pe-2 fs-2"></i>
+                         <span class="fs-6 fw-light ">Like Video</span>
+                      </div>
+                      <div class="inner2-2 d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-photo-film pe-2 fs-3"></i>
+                        <span >Photo/Video</span>
+                      </div>
+                      <div class="inner2-3 d-flex align-items-center justify-content-center">
+                        <i class="fa-regular fa-face-smile pe-2 fs-2"></i>
+                        <span>Feeling/Activity</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="pair3 rounded-2 shadow-sm ">
+                  <div class="group1">
+                    <div class="group11 p-2 d-flex justify-content-between align-items-center ">
+                        <div class="boxset1">
+                             <div class="box11">
+                              <img src="dbtv.jpg" alt="dbtv logo" style="width: 100%; height: 100%; border-radius: 50%;">
+                             </div>
+                             <div class="box22 lh-sm ">
+                                <a href="#" class="text-black fw-bold editz">DBTV LIVE News</a>
+                                <p>a day ago . <span><i class="fa-solid fa-earth-americas" style="font-size: 13px;"></i></span></p>
+                             </div>
+                        </div>
+                        <div class="boxset2 d-flex align-items-center p-2 ">
+                          <i class="fa-solid fa-ellipsis iconeditz"></i>
+                          <i class="fa-solid fa-xmark iconeditz"></i>
+                        </div>
+                    </div>
+                    <div class="group12 p-1 ">
+                        <p style="line-height: 102%; color: black;">The Most likely playing elevan of Pakistan team of an very important match
+                          against south Africa tommorow. Great wishes for Pakistan team.
+                        </p>
+                        <div class="setmul ps-1 " style="margin-top: -17px;">
+                          <a href="#" style="color: blue; text-decoration: none; margin-left: 2px; ">#Pakistan</a> 
+                        <a href="#" style="color: blue; text-decoration: none; margin-left: 5px;">#Cricket</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="group2"></div>
+                  <div class="group3 px-2 ">
+                        <div class="stageset1 h-50 w-100 border-bottom border-1 border-dark px-1 py-2  d-flex 
+                        align-items-center justify-content-between">
+                          <div class="lefty w-25 h-100 d-flex align-items-center justify-content-center  ">
+                            <i class="fa-solid fa-thumbs-up text-white bg-primary rounded-circle  liked"></i>
+                          <i class="fa-solid fa-heart fa-bounce text-white bg-danger rounded-circle liked" 
+                          style="margin-left: -5px;"></i>&nbsp; 3.7k &nbsp; &nbsp;
+                          </div>
+                          <div class="righty w-25 h-100 d-flex align-items-center justify-content-center  ">
+                             88 <i class="fa-solid fa-comment ps-1 "></i> &nbsp; &nbsp; 114 <i class="fa-solid fa-share ps-1 "></i>
+                          </div>
+                        </div>
+                        <div class="stageset2 h-50 w-100 p-1 d-flex align-items-center justify-content-center ">
+                             <div class="dabba1 p-1">
+                              <i class="fa-solid fa-thumbs-up pe-1 text-primary "></i> Like
+                             </div>
+                             <div class="dabba2 p-1 ">
+                              <i class="fa-solid fa-comment pe-1 text-dark-emphasis "></i> Comment
+                             </div>
+                             <div class="dabba3 p-1 ">
+                              <i class="fa-solid fa-share pe-1 text-dark-emphasis "></i> Share
+                             </div>
+                        </div>
+                  </div>
+              </div>
+              <!-- =========================================== -->
+              <div class="pair4 rounded-2 shadow-sm bg-black ">
+                <div class="pair4 rounded-2 shadow-sm ">
+                  <div class="grouped1">
+                    <div class="group111 p-2 d-flex justify-content-between align-items-center ">
+                        <div class="boxset1">
+                             <div class="box11">
+                              <img src="emma.jpg" alt="dbtv logo" style="width: 100%; height: 100%; border-radius: 50%;">
+                             </div>
+                             <div class="box22 lh-sm ">
+                                <a href="#" class="text-black fw-bold editz">Do Pal Ruka</a>
+                                <p>a day ago . <span><i class="fa-solid fa-earth-americas" style="font-size: 13px;"></i></span></p>
+                             </div>
+                        </div>
+                        <div class="boxset2 d-flex align-items-center p-2 ">
+                          <i class="fa-solid fa-ellipsis iconeditz"></i>
+                          <i class="fa-solid fa-xmark iconeditz"></i>
+                        </div>
+                    </div>
+                    <div class="group122 p-1 ">
+                        <p style="line-height: 102%; color: black;">The Most likely playing elevan of Pakistan team of an very important match
+                          against south Africa tommorow. Great wishes for Pakistan team.
+                        </p>
+                        <div class="setmul ps-1 " style="margin-top: -17px;">
+                          <a href="#" style="color: blue; text-decoration: none; margin-left: 2px; ">#Pakistan</a> 
+                        <a href="#" style="color: blue; text-decoration: none; margin-left: 5px;">#Cricket</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="grouped2">
+                    <video width="100%" height="100%" controls muted preload="auto">
+                      <source src="2pal.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="grouped3 px-2 ">
+                        <div class="stageset1 h-50 w-100 border-bottom border-1 border-dark px-1 py-2  d-flex 
+                        align-items-center justify-content-between">
+                          <div class="lefty w-25 h-100 d-flex align-items-center justify-content-center  ">
+                            <i class="fa-solid fa-thumbs-up text-white bg-primary rounded-circle  liked"></i>
+                          <i class="fa-solid fa-heart fa-bounce text-white bg-danger rounded-circle liked" 
+                          style="margin-left: -5px;"></i>&nbsp; 3.7k &nbsp; &nbsp;
+                          </div>
+                          <div class="righty w-25 h-100 d-flex align-items-center justify-content-center  ">
+                             88 <i class="fa-solid fa-comment ps-1 "></i> &nbsp; &nbsp; 114 <i class="fa-solid fa-share ps-1 "></i>
+                          </div>
+                        </div>
+                        <div class="stageset2 h-50 w-100 p-1 d-flex align-items-center justify-content-center ">
+                             <div class="dabba1 p-1">
+                              <i class="fa-solid fa-thumbs-up pe-1 text-primary "></i> Like
+                             </div>
+                             <div class="dabba2 p-1 ">
+                              <i class="fa-solid fa-comment pe-1 text-dark-emphasis "></i> Comment
+                             </div>
+                             <div class="dabba3 p-1 ">
+                              <i class="fa-solid fa-share pe-1 text-dark-emphasis "></i> Share
+                             </div>
+                        </div>
+                  </div>
+              </div>
+              </div>
+              
+              <!-- ============================================================= -->
+
+              <div class="pair3 rounded-2 shadow-sm my-3 ">
+                <div class="group1">
+                  <div class="group11 p-2 d-flex justify-content-between align-items-center ">
+                      <div class="boxset1">
+                           <div class="box11">
+                            <img src="dbtv.jpg" alt="dbtv logo" style="width: 100%; height: 100%; border-radius: 50%;">
+                           </div>
+                           <div class="box22 lh-sm ">
+                              <a href="#" class="text-black fw-bold editz">DBTV LIVE News</a>
+                              <p>a day ago . <span><i class="fa-solid fa-earth-americas" style="font-size: 13px;"></i></span></p>
+                           </div>
+                      </div>
+                      <div class="boxset2 d-flex align-items-center p-2 ">
+                        <i class="fa-solid fa-ellipsis iconeditz"></i>
+                        <i class="fa-solid fa-xmark iconeditz"></i>
+                      </div>
+                  </div>
+                  <div class="group12 p-1 ">
+                      <p style="line-height: 102%; color: black;">The Most likely playing elevan of Pakistan team of an very important match
+                        against south Africa tommorow. Great wishes for Pakistan team.
+                      </p>
+                      <div class="setmul ps-1 " style="margin-top: -17px;">
+                        <a href="#" style="color: blue; text-decoration: none; margin-left: 2px; ">#Pakistan</a> 
+                      <a href="#" style="color: blue; text-decoration: none; margin-left: 5px;">#Cricket</a>
+                      </div>
+                  </div>
+                </div>
+                <div class="grouped12"></div>
+                <div class="group3 px-2 ">
+                      <div class="stageset1 h-50 w-100 border-bottom border-1 border-dark px-1 py-2  d-flex 
+                      align-items-center justify-content-between">
+                        <div class="lefty w-25 h-100 d-flex align-items-center justify-content-center  ">
+                          <i class="fa-solid fa-thumbs-up text-white bg-primary rounded-circle  liked"></i>
+                        <i class="fa-solid fa-heart fa-bounce text-white bg-danger rounded-circle liked" 
+                        style="margin-left: -5px;"></i>&nbsp; 3.7k &nbsp; &nbsp;
+                        </div>
+                        <div class="righty w-25 h-100 d-flex align-items-center justify-content-center  ">
+                           88 <i class="fa-solid fa-comment ps-1 "></i> &nbsp; &nbsp; 114 <i class="fa-solid fa-share ps-1 "></i>
+                        </div>
+                      </div>
+                      <div class="stageset2 h-50 w-100 p-1 d-flex align-items-center justify-content-center ">
+                           <div class="dabba1 p-1">
+                            <i class="fa-solid fa-thumbs-up pe-1 text-primary "></i> Like
+                           </div>
+                           <div class="dabba2 p-1 ">
+                            <i class="fa-solid fa-comment pe-1 text-dark-emphasis "></i> Comment
+                           </div>
+                           <div class="dabba3 p-1 ">
+                            <i class="fa-solid fa-share pe-1 text-dark-emphasis "></i> Share
+                           </div>
+                      </div>
+                </div>
+            </div>
+              <!-- ================================================================================= -->
+              <div class="pair5 rounded-2 shadow-sm bg-black ">
+                <div class="pair4 rounded-2 shadow-sm ">
+                  <div class="grouped1">
+                    <div class="group111 p-2 d-flex justify-content-between align-items-center ">
+                        <div class="boxset1">
+                             <div class="box11">
+                              <img src="poetry.jpg" alt="dbtv logo" style="width: 100%; height: 100%; border-radius: 50%;">
+                             </div>
+                             <div class="box22 lh-sm ">
+                                <a href="#" class="text-black fw-bold editz">Do Pal Ruka</a>
+                                <p>a day ago . <span><i class="fa-solid fa-earth-americas" style="font-size: 13px;"></i></span></p>
+                             </div>
+                        </div>
+                        <div class="boxset2 d-flex align-items-center p-2 ">
+                          <i class="fa-solid fa-ellipsis iconeditz"></i>
+                          <i class="fa-solid fa-xmark iconeditz"></i>
+                        </div>
+                    </div>
+                    <div class="group122 p-1 ">
+                        <p style="line-height: 102%; color: black;">The Most likely playing elevan of Pakistan team of an very important match
+                          against south Africa tommorow. Great wishes for Pakistan team.
+                        </p>
+                        <div class="setmul ps-1 " style="margin-top: -17px;">
+                          <a href="#" style="color: blue; text-decoration: none; margin-left: 2px; ">#Pakistan</a> 
+                        <a href="#" style="color: blue; text-decoration: none; margin-left: 5px;">#Cricket</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="grouped2">
+                    <video width="100%" height="100%" controls muted preload="auto">
+                      <source src="Mainvideo.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="grouped3 px-2 ">
+                        <div class="stageset1 h-50 w-100 border-bottom border-1 border-dark px-1 py-2  d-flex 
+                        align-items-center justify-content-between">
+                          <div class="lefty w-25 h-100 d-flex align-items-center justify-content-center  ">
+                            <i class="fa-solid fa-thumbs-up text-white bg-primary rounded-circle  liked"></i>
+                          <i class="fa-solid fa-heart fa-bounce text-white bg-danger rounded-circle liked" 
+                          style="margin-left: -5px;"></i>&nbsp; 3.7k &nbsp; &nbsp;
+                          </div>
+                          <div class="righty w-25 h-100 d-flex align-items-center justify-content-center  ">
+                             88 <i class="fa-solid fa-comment ps-1 "></i> &nbsp; &nbsp; 114 <i class="fa-solid fa-share ps-1 "></i>
+                          </div>
+                        </div>
+                        <div class="stageset2 h-50 w-100 p-1 d-flex align-items-center justify-content-center ">
+                             <div class="dabba1 p-1">
+                              <i class="fa-solid fa-thumbs-up pe-1 text-primary "></i> Like
+                             </div>
+                             <div class="dabba2 p-1 ">
+                              <i class="fa-solid fa-comment pe-1 text-dark-emphasis "></i> Comment
+                             </div>
+                             <div class="dabba3 p-1 ">
+                              <i class="fa-solid fa-share pe-1 text-dark-emphasis "></i> Share
+                             </div>
+                        </div>
+                  </div>
+              </div>
+              </div>
+              <!-- ====================================================================================== -->
+            </div>
+          </div>
+          <div
+            class="col-md-3 first3 overflow-y-scroll py-2 px-0 set23"
+          >
+            <div class="set2">
+              <div class="right-heading d-flex">
+                <p class="fs-5 py-1 fw-normal ps-2">Contacts</p>
+                <div class="iconbar2 ms-auto">
+                  <i
+                    class="fa-solid fa-magnifying-glass rounded-circle searched"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Search"
+                  ></i>
+                  <i
+                    class="fa-solid fa-ellipsis rounded-circle searched"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Options"
+                  ></i>
+                </div>
+              </div>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set"
+                    src="profile picture.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Muhammad Farooq</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set rana"
+                    src="abd.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Rana Abdullah</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set faisal"
+                    src="faisal.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Faisal Pasha</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set hamza"
+                    src="hamza.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Hamza Khan</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set sultan"
+                    src="sul.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Sultan Fauji</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img class="image-set" src="moaz.jpg" alt="profile picture" />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Moazzam Jigar</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set"
+                    src="profile picture.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Muhammad Farooq</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set rana"
+                    src="abd.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Rana Abdullah</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set faisal"
+                    src="faisal.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Faisal Pasha</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set hamza"
+                    src="hamza.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Hamza Khan</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set sultan"
+                    src="sul.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Sultan Fauji</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img class="image-set" src="moaz.jpg" alt="profile picture" />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Moazzam Jigar</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set"
+                    src="profile picture.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Muhammad Farooq</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set rana"
+                    src="abd.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Rana Abdullah</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set faisal"
+                    src="faisal.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Faisal Pasha</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set hamza"
+                    src="hamza.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Hamza Khan</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set sultan"
+                    src="sul.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Sultan Fauji</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img class="image-set" src="moaz.jpg" alt="profile picture" />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Moazzam Jigar</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set"
+                    src="profile picture.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Muhammad Farooq</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set rana"
+                    src="abd.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Rana Abdullah</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set faisal"
+                    src="faisal.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Faisal Pasha</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set hamza"
+                    src="hamza.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Hamza Khan</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img
+                    class="image-set sultan"
+                    src="sul.jpg"
+                    alt="profile picture"
+                  />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Sultan Fauji</p>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none text-dark fw-bold">
+                <div class="setright2 position-relative">
+                  <img class="image-set" src="moaz.jpg" alt="profile picture" />
+                  <div class="gole"></div>
+                  <p class="fs-6 pt-3 ps-2">Moazzam Jigar</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
